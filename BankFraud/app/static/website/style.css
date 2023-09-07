@@ -1,0 +1,25 @@
+.container{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Înălțimea containerului pe întreaga înălțime a ferestrei vizibile */
+    text-align: center;
+
+}
+.title {
+    font-size: 24px;
+    color: #333;
+}
+
+
+.desc {
+    font-size: 16px;
+    color: #666;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}

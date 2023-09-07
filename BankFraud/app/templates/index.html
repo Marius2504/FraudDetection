@@ -1,0 +1,32 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'website/style.css'%}">
+</head>
+<div class="container">
+
+    <h1 class="title">Fraud detection map</h1>
+    <div class="desc">
+        <p>Fraud detection application build with the using of self organised maps</p>
+        <p>White squares represent possible frauds. A fraud is considered dangerous if it contains a green square
+            inside, otherwise it is considered safe because it has been detected in the past</p>
+    </div>
+
+    <div>
+        <img src="{% static 'website/map.png' %}" alt="Image not found" width=700 height=700>
+    </div>
+</div>
+<!--
+
+fp = '../map.png'
+    try:
+        img = Image.open(fp)
+
+        img_byte_array = io.BytesIO()
+        img.save(img_byte_array, format='PNG')
+        img_byte_array = img_byte_array.getvalue()
+
+        return HttpResponse(img_byte_array, content_type="image/png")
+
+    except FileNotFoundError:
+        return HttpResponse("Image not found")
+-->
