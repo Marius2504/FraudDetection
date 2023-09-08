@@ -11,20 +11,6 @@ Consistency represent the key factor that reveals the fraudulos attempts. The pr
 
 ## :exclamation: Instructions
 
-
-## :wrench: Components 
-  - Arduino Uno
-  - Zip-ties
-  - Power source, a LiPo battery
-  - Wheels (2)
-  - Wires for the line sensor (female - male)
-  - QTR-8A reflectance sensor, along with screws
-  - Ball caster
-  - Extra wires from the Arduino kit
-  - Chassis
-  - Breadboard - medium (400pts)
-  - L293D motor driver
-  - DC motors (2)
   
  ## :camera: Graph
 <p align="center">
