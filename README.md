@@ -13,6 +13,7 @@ Index.html represents the default page that will appear when application is stat
 
 
 ## :exclamation: Instructions
+The application can be stated by using 'python manage.py runserver' command inside BankFraud/BankFraud folder
 
   
  ## :camera: Graph
