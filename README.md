@@ -1,15 +1,14 @@
 # :robot: FraudDetection :car:
 
 ## :arrow_forward: Introduction
-Bank transactions represent an important step for automation paying industry. Often times, these can be farudulos, leading to losing a great amount of money. This project try to identify those transactions and display a map showing them
+Bank transactions represent an important step for the automation paying industry. Oftentimes, these can be fraudulent, leading to losing a great amount of money. This project tries to identify those transactions and display a map showing them
 
 ## :memo: Description
 
-Consistency represent the key factor that reveals the fraudulos attempts. The project implements self organised maps imported from from pypi.org that detects the unexpected details among transactions. Dispaling the map of organised data, it becomes obvious if a transaction is fraudulos or not. 
+Consistency represents the key factor that reveals the fraudulent attempts. The project implements self-organized maps imported from pypi.org that detect unexpected details among transactions. Displaying the map of organized data, it becomes obvious if a transaction is fraudulent or not.
 ## :computer: Implementation
 
-Dataset is composed of multiple rows associated with information for every transaction. Features are then transformed by MinMaxScaler and passed to the model. Hyperparameters are chosen in order to best visualize possible bank frauds.
-Index.html represents the default page that will appear when application is stated. 
+The dataset is composed of multiple rows associated with information for every transaction. Features are then transformed by MinMaxScaler and passed to the model. Hyperparameters are chosen to best visualize possible bank frauds. Index.html represents the default page that will appear when the application is stated.
 
 
 ## :exclamation: Instructions
