@@ -8,6 +8,9 @@ Bank transactions represent an important step for automation paying industry. Of
 Consistency represent the key factor that reveals the fraudulos attempts. The project implements self organised maps imported from from pypi.org that detects the unexpected details among transactions. Dispaling the map of organised data, it becomes obvious if a transaction is fraudulos or not. 
 ## :computer: Implementation
 
+Dataset is composed of multiple rows associated with information for every transaction. Features are then transformed by MinMaxScaler and passed to the model. Hyperparameters are chosen in order to best visualize possible bank frauds.
+Index.html represents the default page that will appear when application is stated. 
+
 
 ## :exclamation: Instructions
 
